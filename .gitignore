@@ -2,6 +2,10 @@
 
 .idea/*
 
+<<<<<<< HEAD
 # my other project #
+=======
+# other project #
+>>>>>>> 823d5d116823eee3a603d2853411e52b24953dec
 
 .290proj/*
