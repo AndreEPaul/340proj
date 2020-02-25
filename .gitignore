@@ -1,4 +1,7 @@
 # directories from jetbrains #
 
-*./idea
+.idea/*
 
+# my other project #
+
+.290proj/*
