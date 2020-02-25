@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>
+        DataGorge::Players
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap js/CSS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="./index.html"><b><u>DataGorge</u></b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNBAnavbar" aria-controls="myNBAnavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="myNBAnavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="./players.html"><b>Players <span class="sr-only">(current)</span></b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./teams.html"><b>Teams </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./gamestats.html"><b>Statistics </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./games.html"><b>Games </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./positions.html"><b>Positions </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./players_positions.html"><b>Players_Positions</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h1 class="myCustomHeader">Players </h1>
+<br><br>
+<table class="table">
+    <tr>
+        <th>playerID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Height (inches)</th>
+        <th>Weight (lbs)</th>
+        <th>teamID</th>
+        <th>Position(s)</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>Damian</td>
+        <td>Lillard</td>
+        <td>74</td>
+        <td>194</td>
+        <td>0 (to be shown as team.teamName)</td>
+        <td>to be taken from intersection table</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>LeBron</td>
+        <td>James</td>
+        <td>81</td>
+        <td>250</td>
+        <td>1 (to be shown as team.teamName)</td>
+        <td>to be taken from intersection table</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Giannis</td>
+        <td>Antetokounmpo</td>
+        <td>83</td>
+        <td>242</td>
+        <td>2 (to be shown as team.teamName)</td>
+        <td>to be taken from intersection table</td>
+    </tr>
+</table>
+<br><br>
+<h1 class="myCustomHeader"> Insert a new player </h1>
+<br><br>
+<form class="form-check"> <!--action= not sure yet -->
+    First Name:&nbsp;<input type="text" name="firstName"> &nbsp;&nbsp;
+    Last Name:&nbsp;<input type="text" name="lastName"> &nbsp;&nbsp;
+    Height:&nbsp;<input type="number" name="height"> &nbsp;&nbsp;
+    Weight:&nbsp;<input type="number" name="weight"> &nbsp;&nbsp;
+    teamID:&nbsp;<input type="number" name="teamID"> &nbsp;&nbsp;
+    <!-- How to handle inputting positions?-->
+    <input type="submit" value="Submit"> &nbsp;
+</form>
+<br><br>
+<form class="form-check">
+    Search for a player in the table by their first or last name: <br>
+    <input type="text" placeholder="Name...">
+    <input type="submit" value="Search">
+</form>
+<br><br><br>
+</body>
+</html>

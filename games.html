@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>
+        DataGorge::Games
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap js/CSS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="./index.html"><b><u>DataGorge</u></b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNBAnavbar" aria-controls="myNBAnavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="myNBAnavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="./players.html"><b>Players </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./teams.html"><b>Teams </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./gamestats.html"><b>Statistics </b></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./games.html"><b>Games <span class="sr-only">(current)</span></b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./positions.html"><b>Positions </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./players_positions.html"><b>Players_Positions</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h1 class="myCustomHeader">Games </h1>
+<table class="table">
+    <tr>
+        <th>gameID</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>team1 Points</th>
+        <th>team2 Points</th>
+        <th>team1ID</th>
+        <th>team2ID</th>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>01/31/2020</td>
+        <td>Los Angeles</td>
+        <td>127</td>
+        <td>119</td>
+        <td>0</td>
+        <td>1</td>
+    </tr>
+</table>
+<div>more rows later...</div>
+<br><br>
+<h1 class="myCustomHeader"> Insert new games </h1>
+<br><br>
+<form class="form-check"> <!--action= not sure yet -->
+    Date:&nbsp;<input type="date" name="date"> &nbsp;&nbsp;
+    Location:&nbsp;<input type="text" name="location">&nbsp;&nbsp;
+    Team1 Points:&nbsp;<input type="number" name="team1Points">&nbsp;&nbsp;
+    Team2 Points:&nbsp;<input type="number" name="team2Points">&nbsp;&nbsp;
+    <br><br>team1ID:&nbsp;<input type="number" name="team1ID">&nbsp;&nbsp;
+    team2ID:&nbsp;<input type="number" name="team2ID">&nbsp;&nbsp;
+    <input type="submit" value="Submit"> &nbsp;
+</form>
+<br><br><br>
+</body>
+</html>
