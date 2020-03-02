@@ -6,7 +6,12 @@ var handlebars = require('express-handlebars').create({defaultLayout:'main'});
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 4117);
+app.set('port', 7117);
+
+app.get('/', function(req,res,next){
+    context = {};
+    res.render('index', context);
+});
 
 app.get('/index', function(req,res,next){
   context = {};
