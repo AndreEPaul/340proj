@@ -48,7 +48,6 @@
 <br><br>
 <table class="table">
     <tr>
-        <th>playerID</th>
         <th>First Name</th>
         <th>Last Name</th>
         <th>Height (inches)</th>
@@ -57,7 +56,6 @@
         <th>Position(s)</th>
     </tr>
     <tr>
-        <td>0</td>
         <td>Damian</td>
         <td>Lillard</td>
         <td>74</td>
@@ -66,7 +64,6 @@
         <td>to be taken from intersection table</td>
     </tr>
     <tr>
-        <td>1</td>
         <td>LeBron</td>
         <td>James</td>
         <td>81</td>
@@ -75,7 +72,6 @@
         <td>to be taken from intersection table</td>
     </tr>
     <tr>
-        <td>2</td>
         <td>Giannis</td>
         <td>Antetokounmpo</td>
         <td>83</td>
@@ -84,23 +80,33 @@
         <td>to be taken from intersection table</td>
     </tr>
 </table>
+
 <br><br>
-<h1 class="myCustomHeader"> Insert a new player </h1>
-<br><br>
+
 <form class="form-check"> <!--action= not sure yet -->
-    First Name:&nbsp;<input type="text" name="firstName"> &nbsp;&nbsp;
-    Last Name:&nbsp;<input type="text" name="lastName"> &nbsp;&nbsp;
-    Height:&nbsp;<input type="number" name="height"> &nbsp;&nbsp;
-    Weight:&nbsp;<input type="number" name="weight"> &nbsp;&nbsp;
-    teamID:&nbsp;<input type="number" name="teamID"> &nbsp;&nbsp;
-    <!-- How to handle inputting positions?-->
-    <input type="submit" value="Submit"> &nbsp;
+    <fieldset>
+        <legend>Insert new player</legend>
+            First Name:&nbsp;<input type="text" name="firstName"> &nbsp;&nbsp;
+        <br><br>
+            Last Name:&nbsp;<input type="text" name="lastName"> &nbsp;&nbsp;
+        <br><br>
+            Height:&nbsp;<input type="number" name="height"> &nbsp;&nbsp;
+        <br><br>
+            Weight:&nbsp;<input type="number" name="weight"> &nbsp;&nbsp;
+        <br><br>
+            teamID:&nbsp;<input type="number" name="teamID"> &nbsp;
+        <br><br>
+            <!-- How to handle inputting positions?-->
+            <input type="submit" value="Submit"> &nbsp;
+    </fieldset>
 </form>
 <br><br>
 <form class="form-check">
-    Search for a player in the table by their first or last name: <br>
-    <input type="text" placeholder="Name...">
-    <input type="submit" value="Search">
+    <fieldset>
+        <legend>Search player by last name </legend>
+            <input type="text" placeholder="Name...">
+            <input type="submit" value="Search">
+    </fieldset>
 </form>
 <br><br><br>
 </body>

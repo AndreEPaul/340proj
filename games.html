@@ -46,7 +46,6 @@
 <h1 class="myCustomHeader">Games </h1>
 <table class="table">
     <tr>
-        <th>gameID</th>
         <th>Date</th>
         <th>Location</th>
         <th>team1 Points</th>
@@ -55,7 +54,6 @@
         <th>team2ID</th>
     </tr>
     <tr>
-        <td>0</td>
         <td>01/31/2020</td>
         <td>Los Angeles</td>
         <td>127</td>
@@ -66,16 +64,24 @@
 </table>
 <div>more rows later...</div>
 <br><br>
-<h1 class="myCustomHeader"> Insert new games </h1>
 <br><br>
 <form class="form-check"> <!--action= not sure yet -->
-    Date:&nbsp;<input type="date" name="date"> &nbsp;&nbsp;
-    Location:&nbsp;<input type="text" name="location">&nbsp;&nbsp;
-    Team1 Points:&nbsp;<input type="number" name="team1Points">&nbsp;&nbsp;
-    Team2 Points:&nbsp;<input type="number" name="team2Points">&nbsp;&nbsp;
-    <br><br>team1ID:&nbsp;<input type="number" name="team1ID">&nbsp;&nbsp;
-    team2ID:&nbsp;<input type="number" name="team2ID">&nbsp;&nbsp;
-    <input type="submit" value="Submit"> &nbsp;
+    <fieldset>
+        <legend>Insert new game</legend>
+        Date:&nbsp;<input type="date" name="date"> &nbsp;&nbsp;
+        <br><br>
+        Location:&nbsp;<input type="text" name="location">&nbsp;&nbsp;
+        <br><br>
+        Team1 Points:&nbsp;<input type="number" name="team1Points">&nbsp;&nbsp;
+        <br><br>
+        Team2 Points:&nbsp;<input type="number" name="team2Points">&nbsp;&nbsp;
+        <br><br>
+        team1ID:&nbsp;<input type="number" name="team1ID">&nbsp;&nbsp;
+        <br><br>
+        team2ID:&nbsp;<input type="number" name="team2ID">&nbsp;&nbsp;
+        <br><br>
+        <input type="submit" value="Submit"> &nbsp;
+    </fieldset>
 </form>
 <br><br><br>
 </body>
