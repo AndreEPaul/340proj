@@ -47,7 +47,6 @@
 <h1 class="myCustomHeader">Statistics </h1>
 <table class="table">
     <tr>
-        <th>statsID</th>
         <th>Points</th>
         <th>Assists</th>
         <th>Rebounds</th>
@@ -58,7 +57,6 @@
         <th>gameID</th>
     </tr>
     <tr>
-        <td>0</td>
         <td>48</td>
         <td>10</td>
         <td>9</td>
@@ -71,34 +69,53 @@
 </table>
 <div>more rows later...</div>
 <br><br>
-<h1 class="myCustomHeader"> Insert new stats</h1>
-<br><br>
 <form class="form-check"> <!--action= not sure yet -->
-    Points&nbsp;<input type="number" name="points"> &nbsp;&nbsp;
-    Assists:&nbsp;<input type="number" name="assists"> &nbsp;&nbsp;
-    Rebounds:&nbsp;<input type="number" name="rebounds"> &nbsp;&nbsp;
-    Steals:&nbsp;<input type="number" name="steals"> &nbsp;&nbsp;
-    Blocks:&nbsp;<input type="number" name="blocks"> &nbsp;&nbsp;
-    <br><br>+/-:&nbsp;<input type="number" name="plusMinus"> &nbsp;&nbsp;
-    playerID:&nbsp;<input type="number" name="playerID"> &nbsp;&nbsp;
-    gameID:&nbsp;<input type="number" name="gameID"> &nbsp;&nbsp;
-    <input type="submit" value="Submit"> &nbsp;
+    <fieldset>
+        <legend>Insert a new stat</legend>
+        Points&nbsp;<input type="number" name="points"> &nbsp;&nbsp;
+        <br><br>
+        Assists:&nbsp;<input type="number" name="assists"> &nbsp;&nbsp;
+        <br><br>
+        Rebounds:&nbsp;<input type="number" name="rebounds"> &nbsp;&nbsp;
+        <br><br>
+        Steals:&nbsp;<input type="number" name="steals"> &nbsp;&nbsp;
+        <br><br>
+        Blocks:&nbsp;<input type="number" name="blocks"> &nbsp;&nbsp;
+        <br><br>
+        +/-:&nbsp;<input type="number" name="plusMinus"> &nbsp;&nbsp;
+        <br><br>
+        playerID:&nbsp;<input type="number" name="playerID"> &nbsp;&nbsp;
+        <br><br>
+        gameID:&nbsp;<input type="number" name="gameID"> &nbsp;&nbsp;
+        <br><br>
+        <input type="submit" value="Submit"> &nbsp;
+    </fieldset>
 </form>
-<br><br>
-<h1 class="myCustomHeader"> Update an existing stat</h1>
 <br><br>
 <div>Note that I think I would want any blank values (besides statsID) to default to their previous values.</div>
 <form class="form-check"> <!--action= not sure yet -->
-    statsID: &nbsp;<input type="number" name="statsID"> &nbsp;&nbsp;
-    Points&nbsp;<input type="number" name="points"> &nbsp;&nbsp;
-    Assists:&nbsp;<input type="number" name="assists"> &nbsp;&nbsp;
-    Rebounds:&nbsp;<input type="number" name="rebounds"> &nbsp;&nbsp;
-    <br><br>Steals:&nbsp;<input type="number" name="steals"> &nbsp;&nbsp;
-    Blocks:&nbsp;<input type="number" name="blocks"> &nbsp;&nbsp;
-    +/-:&nbsp;<input type="number" name="plusMinus"> &nbsp;&nbsp;
-    playerID:&nbsp;<input type="number" name="playerID"> &nbsp;&nbsp;
-    gameID:&nbsp;<input type="number" name="gameID"> &nbsp;&nbsp;
-    <input type="submit" value="Submit"> &nbsp;
+    <fieldset>
+        <legend>Update an existing stat</legend>
+        statsID: &nbsp;<input type="number" name="statsID"> &nbsp;&nbsp;
+        <br><br>
+        Points&nbsp;<input type="number" name="points"> &nbsp;&nbsp;
+        <br><br>
+        Assists:&nbsp;<input type="number" name="assists"> &nbsp;&nbsp;
+        <br><br>
+        Rebounds:&nbsp;<input type="number" name="rebounds"> &nbsp;&nbsp;
+        <br><br>
+        Steals:&nbsp;<input type="number" name="steals"> &nbsp;&nbsp;
+        <br><br>
+        Blocks:&nbsp;<input type="number" name="blocks"> &nbsp;&nbsp;
+        <br><br>
+        +/-:&nbsp;<input type="number" name="plusMinus"> &nbsp;&nbsp;
+        <br><br>
+        playerID:&nbsp;<input type="number" name="playerID"> &nbsp;&nbsp;
+        <br><br>
+        gameID:&nbsp;<input type="number" name="gameID"> &nbsp;&nbsp;
+        <br><br>
+        <input type="submit" value="Submit"> &nbsp;
+    </fieldset>
 </form>
 <br><br><br>
 </body>
