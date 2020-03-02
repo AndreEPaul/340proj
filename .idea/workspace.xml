@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="67bae00d-63b5-414a-9c6d-49bdc3a7b9d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/games.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/views/games.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/gamestats.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/views/gamestats.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/home.handlebars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/players.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/views/players.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/players_positions.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/views/players_positions.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/positions.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/views/positions.handlebars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +80,7 @@
       <updated>1581016879243</updated>
       <workItem from="1581016918033" duration="19639000" />
       <workItem from="1583123723940" duration="1903000" />
-      <workItem from="1583171567524" duration="9471000" />
+      <workItem from="1583171567524" duration="10088000" />
     </task>
     <servers />
   </component>
