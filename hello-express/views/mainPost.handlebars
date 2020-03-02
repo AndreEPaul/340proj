@@ -1,0 +1,18 @@
+<h1>POST Request Received</h1>
+
+<h3>You sent the following data in a POST request:</h3>
+
+<h5> via URL query </h5>
+<ul>
+    {{#each dataURL}}
+        <li>{{this.name}}: {{this.value}}
+    {{/each}}
+</ul>
+
+
+<h5> via body </h5>
+<ul>
+    {{#each dataBody}}
+        <li>{{this.name}}: {{this.value}}
+    {{/each}}
+</ul>   
