@@ -3,36 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67bae00d-63b5-414a-9c6d-49bdc3a7b9d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/helloMysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/helloMysql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/node_modules/chokidar/node_modules/path-is-absolute/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/node_modules/chokidar/node_modules/path-is-absolute/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/node_modules/chokidar/node_modules/path-is-absolute/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/node_modules/chokidar/node_modules/path-is-absolute/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/node_modules/is-accessor-descriptor/node_modules/kind-of/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/node_modules/is-accessor-descriptor/node_modules/kind-of/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/node_modules/is-accessor-descriptor/node_modules/kind-of/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/views/layouts/main.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +75,7 @@
       <updated>1581016879243</updated>
       <workItem from="1581016918033" duration="19639000" />
       <workItem from="1583123723940" duration="1903000" />
-      <workItem from="1583171567524" duration="8822000" />
+      <workItem from="1583171567524" duration="9471000" />
     </task>
     <servers />
   </component>

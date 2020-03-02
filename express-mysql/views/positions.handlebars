@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="/index"><b><u>DataGorge</u></b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNBAnavbar" aria-controls="myNBAnavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="myNBAnavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="/players"><b>Players </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/teams"><b>Teams </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/gamestats"><b>Statistics </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/games"><b>Games </b></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/positions"><b>Positions <span class="sr-only">(current)</span></b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/players_positions"><b>Players_Positions</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h1 class="myCustomHeader">Positions </h1>
+<table class="table" id="positionsTable">
+    <tr>
+        <th>Position</th>
+    </tr>
+    <tr>
+        <td>Point Guard</td>
+    </tr>
+    <tr>
+        <td>Shooting Guard</td>
+    </tr>
+    <tr>
+        <td>Small Forward</td>
+    </tr>
+    <tr>
+        <td>Power Forward</td>
+    </tr>
+    <tr>
+        <td>Center</td>
+    </tr>
+</table>
+<div>&nbsp;&nbsp; (Quick note that it doesn't make sense to add or remove positions.)</div>
+<div>&nbsp;&nbsp; Note that Players can play multiple Positions.</div>
+<br><br>
+<form class="form-check"> <!--action= not sure yet -->
+    <fieldset>
+        <legend>Insert new position</legend>
+        Position Name:&nbsp;<input type="text" name="positionName">
+        <input type="submit" value="Submit"> &nbsp;
+    </fieldset>
+</form>
