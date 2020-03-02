@@ -1,0 +1,102 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="./index.html"><b><u>DataGorge</u></b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNBAnavbar" aria-controls="myNBAnavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="myNBAnavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="/players"><b>Players </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/teams"><b>Teams </b></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/gamestats"><b>Statistics <span class="sr-only">(current)</span></b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/games"><b>Games </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/positions"><b>Positions </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/players_positions"><b>Players_Positions</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h1 class="myCustomHeader">Statistics </h1>
+<table class="table" id="statsTable">
+    <tr>
+        <th>Points</th>
+        <th>Assists</th>
+        <th>Rebounds</th>
+        <th>Steals</th>
+        <th>Blocks</th>
+        <th>+/-</th>
+        <th>playerID</th>
+        <th>gameID</th>
+    </tr>
+    <tr>
+        <td>48</td>
+        <td>10</td>
+        <td>9</td>
+        <td>2</td>
+        <td>0</td>
+        <td>+12</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
+<div>more rows later...</div>
+<br><br>
+<form class="form-check"> <!--action= not sure yet -->
+    <fieldset>
+        <legend>Insert a new stat</legend>
+        Points&nbsp;<input type="number" name="points"> &nbsp;&nbsp;
+        <br><br>
+        Assists:&nbsp;<input type="number" name="assists"> &nbsp;&nbsp;
+        <br><br>
+        Rebounds:&nbsp;<input type="number" name="rebounds"> &nbsp;&nbsp;
+        <br><br>
+        Steals:&nbsp;<input type="number" name="steals"> &nbsp;&nbsp;
+        <br><br>
+        Blocks:&nbsp;<input type="number" name="blocks"> &nbsp;&nbsp;
+        <br><br>
+        +/-:&nbsp;<input type="number" name="plusMinus"> &nbsp;&nbsp;
+        <br><br>
+        playerID:&nbsp;<input type="number" name="playerID"> &nbsp;&nbsp;
+        <br><br>
+        gameID:&nbsp;<input type="number" name="gameID"> &nbsp;&nbsp;
+        <br><br>
+        <input type="submit" value="Submit"> &nbsp;
+    </fieldset>
+</form>
+<br><br>
+<div>Note that I think I would want any blank values (besides statsID) to default to their previous values.</div>
+<form class="form-check"> <!--action= not sure yet -->
+    <fieldset>
+        <legend>Update an existing stat</legend>
+        statsID: &nbsp;<input type="number" name="statsID"> &nbsp;&nbsp;
+        <br><br>
+        Points&nbsp;<input type="number" name="points"> &nbsp;&nbsp;
+        <br><br>
+        Assists:&nbsp;<input type="number" name="assists"> &nbsp;&nbsp;
+        <br><br>
+        Rebounds:&nbsp;<input type="number" name="rebounds"> &nbsp;&nbsp;
+        <br><br>
+        Steals:&nbsp;<input type="number" name="steals"> &nbsp;&nbsp;
+        <br><br>
+        Blocks:&nbsp;<input type="number" name="blocks"> &nbsp;&nbsp;
+        <br><br>
+        +/-:&nbsp;<input type="number" name="plusMinus"> &nbsp;&nbsp;
+        <br><br>
+        playerID:&nbsp;<input type="number" name="playerID"> &nbsp;&nbsp;
+        <br><br>
+        gameID:&nbsp;<input type="number" name="gameID"> &nbsp;&nbsp;
+        <br><br>
+        <input type="submit" value="Submit"> &nbsp;
+    </fieldset>
+</form>

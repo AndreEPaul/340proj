@@ -1,0 +1,93 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand" href="./index.html"><b><u>DataGorge</u></b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNBAnavbar" aria-controls="myNBAnavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="myNBAnavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="/players"><b>Players <span class="sr-only">(current)</span></b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/teams"><b>Teams </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/gamestats"><b>Statistics </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/games"><b>Games </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/positions"><b>Positions </b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/players_positions"><b>Players_Positions</b></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h1 class="myCustomHeader">Players </h1>
+<br><br>
+<table class="table" id="playerTable">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Height (inches)</th>
+        <th>Weight (lbs)</th>
+        <th>teamID</th>
+        <th>Position(s)</th>
+    </tr>
+    <tr>
+        <td>Damian</td>
+        <td>Lillard</td>
+        <td>74</td>
+        <td>194</td>
+        <td>0 (to be shown as team.teamName)</td>
+        <td>to be taken from intersection table</td>
+    </tr>
+    <tr>
+        <td>LeBron</td>
+        <td>James</td>
+        <td>81</td>
+        <td>250</td>
+        <td>1 (to be shown as team.teamName)</td>
+        <td>to be taken from intersection table</td>
+    </tr>
+    <tr>
+        <td>Giannis</td>
+        <td>Antetokounmpo</td>
+        <td>83</td>
+        <td>242</td>
+        <td>2 (to be shown as team.teamName)</td>
+        <td>to be taken from intersection table</td>
+    </tr>
+</table>
+
+<br><br>
+
+<form class="form-check"> <!--action= not sure yet -->
+    <fieldset>
+        <legend>Insert new player</legend>
+            First Name:&nbsp;<input type="text" name="firstName"> &nbsp;&nbsp;
+        <br><br>
+            Last Name:&nbsp;<input type="text" name="lastName"> &nbsp;&nbsp;
+        <br><br>
+            Height:&nbsp;<input type="number" name="height"> &nbsp;&nbsp;
+        <br><br>
+            Weight:&nbsp;<input type="number" name="weight"> &nbsp;&nbsp;
+        <br><br>
+            teamID:&nbsp;<input type="number" name="teamID"> &nbsp;
+        <br><br>
+            <!-- How to handle inputting positions?-->
+            <input type="submit" value="Submit"> &nbsp;
+    </fieldset>
+</form>
+<br><br>
+<form class="form-check">
+    <fieldset>
+        <legend>Search player by last name </legend>
+            <input type="text" placeholder="Name...">
+            <input type="submit" value="Search">
+    </fieldset>
+</form>
