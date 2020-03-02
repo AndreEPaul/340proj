@@ -3,6 +3,103 @@
   <component name="ChangeListManager">
     <list default="true" id="67bae00d-63b5-414a-9c6d-49bdc3a7b9d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/helloMysql.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/helloMysql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/js/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/js/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/js/css/bootstrap.min.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/express-mysql/views/layouts/main.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/views/layouts/main.handlebars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +139,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../290/act5/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/express-mysql/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +147,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andre\Desktop\OSUcourses\340\340proj\express-mysql\public" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -75,7 +177,7 @@
       <updated>1581016879243</updated>
       <workItem from="1581016918033" duration="19639000" />
       <workItem from="1583123723940" duration="1903000" />
-      <workItem from="1583171567524" duration="11570000" />
+      <workItem from="1583171567524" duration="12410000" />
     </task>
     <servers />
   </component>
