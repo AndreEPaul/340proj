@@ -1,18 +1,17 @@
 var express = require('express');
 var mysql = require('./views/dbcon.js');
+var bodyParser = require('body-parser');
 
 var app = express();
 var handlebars = require('express-handlebars').create({defaultLayout:'main'});
 
-var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json());
-
 app.engine('handlebars', handlebars.engine);
-app.set('view engine', 'handlebars');
-app.set('port', 7117);
-
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
+app.set('view engine', 'handlebars');
+app.set('port', process.argv[2]);
+app.set('mysql', mysql);
+
 
 app.get('/', function(req,res,next){
     context = {};
