@@ -26,12 +26,12 @@ app.get('/index', function(req,res,next){
 
 app.get('/games',function(req,res,next){
   var display = {};
-  mysql.pool.query('SELECT * FROM Games', function(err, rows, fields){
+  mysql.pool.query('SELECT * FROM Games;', function(err, rows, fields){
     if(err){
       next(err);
       return;
     }
-    display.results = rows;
+    display.results = JSON.stringify(rows);
     res.render('games', display);
   });
 /*
