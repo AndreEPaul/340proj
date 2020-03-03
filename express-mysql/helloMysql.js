@@ -4,10 +4,15 @@ var mysql = require('./views/dbcon.js');
 var app = express();
 var handlebars = require('express-handlebars').create({defaultLayout:'main'});
 
+var bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
+
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 app.set('port', 7117);
-app.use(express.static('public'))
+
+app.use(express.static('public'));
 
 app.get('/', function(req,res,next){
     context = {};
@@ -29,7 +34,7 @@ app.get('/games',function(req,res,next){
     display.results = JSON.stringify(rows);
     res.render('games', display);
   });
-
+/*
   var toAdd = {};
   mysql.pool.query("INSERT INTO Games (`date`, `location`, `team1Points`, `team2Points`, `team1ID`, `team2ID`) VALUES (?, ?, ?, ?, ?, ?)",
       [req.query.c], function(err, result){
@@ -40,7 +45,9 @@ app.get('/games',function(req,res,next){
     toAdd.results = "Inserted id " + result.insertId;
     res.render('games',toAdd);
   });
+*/
 });
+
 
 app.get('/gamestats',function(req,res,next){
   var display = {};
@@ -53,7 +60,7 @@ app.get('/gamestats',function(req,res,next){
     display.results = JSON.stringify(rows);
     res.render('gamestats', display);
   });
-
+/*
   var toAdd = {};
   mysql.pool.query("INSERT INTO GameStats (`points`, `assists`, `rebounds`, `steals`, `blocks`, `plusMinus`, `playerID`, `gameID`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
       [req.query.c], function(err, result){
@@ -64,6 +71,7 @@ app.get('/gamestats',function(req,res,next){
         toAdd.results = "Inserted id " + result.insertId;
         res.render('gamestats',toAdd);
       });
+ */
 });
 
 app.get('/players',function(req,res,next){
@@ -76,7 +84,7 @@ app.get('/players',function(req,res,next){
     display.results = JSON.stringify(rows);
     res.render('players', display);
   });
-
+/*
   var toAdd = {};
   mysql.pool.query("INSERT INTO Games (`height`, `weight`, `lastName`, `firstName`, `teamID`) VALUES (?, ?, ?, ?, ?)",
       [req.query.c], function(err, result){
@@ -87,6 +95,7 @@ app.get('/players',function(req,res,next){
         toAdd.results = "Inserted id " + result.insertId;
         res.render('players',toAdd);
       });
+ */
 });
 
 app.get('/players_positions',function(req,res,next){
@@ -99,7 +108,7 @@ app.get('/players_positions',function(req,res,next){
     display.results = JSON.stringify(rows);
     res.render('players_positions', display);
   });
-
+/*
   var toAdd = {};
   mysql.pool.query("INSERT INTO Players_Positions (`plID`, `poID`) VALUES (?, ?)",
       [req.query.c], function(err, result){
@@ -110,6 +119,7 @@ app.get('/players_positions',function(req,res,next){
         toAdd.results = "Inserted id " + result.insertId;
         res.render('Players_Positions',toAdd);
       });
+ */
 });
 
 app.get('/positions',function(req,res,next){
@@ -122,7 +132,7 @@ app.get('/positions',function(req,res,next){
     display.results = JSON.stringify(rows);
     res.render('positions', display);
   });
-
+/*
   var toAdd = {};
   mysql.pool.query("INSERT INTO Positions (`positionName`) VALUES (?)",
       [req.query.c], function(err, result){
@@ -133,6 +143,7 @@ app.get('/positions',function(req,res,next){
         toAdd.results = "Inserted id " + result.insertId;
         res.render('positions',toAdd);
       });
+ */
 });
 
 app.get('/teams',function(req,res,next){
@@ -145,7 +156,7 @@ app.get('/teams',function(req,res,next){
     display.results = JSON.stringify(rows);
     res.render('teams', display);
   });
-
+/*
   var toAdd = {};
   mysql.pool.query("INSERT INTO Teams (`teamName`, `homeCourt`) VALUES (?, ?)",
       [req.query.c], function(err, result){
@@ -156,6 +167,7 @@ app.get('/teams',function(req,res,next){
         toAdd.results = "Inserted id " + result.insertId;
         res.render('teams',toAdd);
       });
+ */
 });
 
 // ADD DELETE FUNCTIONALITY LATER
