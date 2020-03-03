@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="67bae00d-63b5-414a-9c6d-49bdc3a7b9d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/games.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/games.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-mysql/postions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/gamestats.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/gamestats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/players.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/players.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/players_positions.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/players_positions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-mysql/positions.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-mysql/positions.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <updated>1581016879243</updated>
       <workItem from="1581016918033" duration="19639000" />
       <workItem from="1583123723940" duration="1903000" />
-      <workItem from="1583171567524" duration="25246000" />
+      <workItem from="1583171567524" duration="26004000" />
     </task>
     <servers />
   </component>
