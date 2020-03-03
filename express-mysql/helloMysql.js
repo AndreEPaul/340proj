@@ -31,7 +31,7 @@ app.get('/games',function(req,res,next){
       next(err);
       return;
     }
-    display.results = JSON.stringify(rows);
+    display.results = rows;
     res.render('games', display);
   });
 /*
