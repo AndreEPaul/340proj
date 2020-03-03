@@ -26,7 +26,7 @@ app.use('/games', require('./games.js'));
 app.use('/gamestats', require('./gamestats.js'));
 app.use('/players', require('./players.js'));
 app.use('/players_positions', require('./players_positions.js'));
-app.use('/positions', require('./positions'));
+app.use('/positions', require('./positions.js'));
 app.use('/teams', require('./teams.js'));
 
 app.use(function(req,res){
